@@ -34,5 +34,8 @@
       "last 1 safari version",
       "last 1 IE version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.63.4"
   }
 }
