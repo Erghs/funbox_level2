@@ -40,6 +40,11 @@ body::before {
     background: linear-gradient(to bottom, rgba(0,0,0,0.5) 10%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 70%, rgba(0,0,0,0.5) 100%);
     z-index: -1;
   }
+  button{
+    font-size: 100%; /* 1 */
+    line-height: 1.15;
+    margin: 0;
+  }
   
   @media screen and (min-width: 1200px) {
     body {

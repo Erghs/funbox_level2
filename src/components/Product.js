@@ -1,8 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
 import cat from "../assets/img/cat.jpg"
-import { useEffect } from 'react';
-
 
 
 export default function Product({product}) {
@@ -26,7 +24,7 @@ export default function Product({product}) {
             setIsSelected(!isSelected)
        }
        if(isSelected){
-        setNote("Сказочное заморское яство")
+            setNote("Сказочное заморское яство")
        }
 
    };
@@ -46,7 +44,7 @@ export default function Product({product}) {
         <div class="card-product__weight">{product.weight}<br/><span>кг</span></div>
     </div>
     {!isSelected && product.availability?
-    <p className="catalog__item-footer-text footer-text">Чего сидишь? Порадуй котэ, <button className="catalog__btn-text" type="button" onClick={handleChangeFlag}>купи.</button></p>
+    <p className="catalog__item-footer-text footer-text">Чего сидишь? Порадуй котэ, <span><button className="catalog__btn-text" type="button" onClick={handleChangeFlag}>купи.</button></span></p>
     :
     <p className="catalog__item-footer-text footer-text">{product.availability?product.text_available:product.text_unavailable}</p>
     }
