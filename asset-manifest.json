@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/funbox_level2/static/css/main.73731d14.css",
+    "main.js": "/funbox_level2/static/js/main.484c7b16.js",
+    "static/media/Exo2.0-Thin.otf": "/funbox_level2/static/media/Exo2.0-Thin.51c257bfa8ec3e0cfb4b.otf",
+    "static/media/cat.jpg": "/funbox_level2/static/media/cat.595354328b8bf8eaabf7.jpg",
+    "static/media/bg.jpg": "/funbox_level2/static/media/bg.ef8f3ebd471bab6ef282.jpg",
+    "index.html": "/funbox_level2/index.html",
+    "main.73731d14.css.map": "/funbox_level2/static/css/main.73731d14.css.map",
+    "main.484c7b16.js.map": "/funbox_level2/static/js/main.484c7b16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73731d14.css",
+    "static/js/main.484c7b16.js"
+  ]
+}
