@@ -1,3 +1,5 @@
+$grey: #b3b3b3;
+
 .catalog{
     width: inherit;
     padding-top: 20px;
@@ -30,14 +32,14 @@
         }
         .catalog__item-card::before,
         .catalog__item-card:focus::before{
-            background-color: #b3b3b3;
+            background-color: $grey;
             background:linear-gradient(135deg, transparent 31px, #b3b3b3 0);
 
         }
         .card-product__note,
         .catalog__item-card .card-product__title,
         .catalog__item-card .card-product__bonus  {
-            color: #b3b3b3;
+            color: $grey;
          }
     
         .card-product{
@@ -45,7 +47,7 @@
             
         }
         .catalog__item-card .card-product__weight{
-            background-color: #b3b3b3;
+            background-color: $grey;
         }
       
         
@@ -77,6 +79,7 @@
         margin: 0 auto 50px;
         padding-top: 4px;
         padding-left: 4px;
+        padding-bottom: 12px;
         
         &-footer-text{
             font-size: 13px;
@@ -127,7 +130,7 @@
     &__btn-text {
         border: none;
         background-color: transparent;
-        padding: 0;
+        padding: 4px;
         padding-bottom: 1px;
         color: #1698d9;
         font-weight: bold;
